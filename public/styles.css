@@ -1,0 +1,130 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    background: rgb(33, 33, 37);
+    overflow-x: hidden;
+    font-family: "Exo 2", sans-serif;
+}
+
+
+
+.Cabecalho h1 {
+    font-size: clamp(2rem, 4vw, 4rem);
+}
+
+
+.logo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+
+.intro-site {
+    font-size: 1.3rem;
+}
+
+
+.nav-item-custom {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0 14px;
+    border-right: 4px solid white;
+    cursor: pointer;
+}
+
+.nav-item-custom:last-child {
+    border-right: none;
+}
+
+
+.banner img {
+    max-height: 700px;
+    object-fit: cover;
+}
+
+
+#Preferidos,
+#recentemente,
+#top {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+#Preferidos  { color: rgb(255, 225, 2); }
+#recentemente { color: rgb(132, 161, 239); }
+#top          { color: rgb(220, 10, 10); }
+
+
+.card-favorito {
+    background: yellow;
+    border: 5px solid rgb(173, 173, 9);
+}
+
+.card-favorito .icone {
+    width: 20px;
+    display: inline;
+    margin-right: 6px;
+}
+
+.card-favorito p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+
+.card-normal {
+    background: rgb(3, 7, 132);
+    border: 5px solid rgb(19, 21, 66);
+}
+
+.card-normal .icone {
+    width: 20px;
+    display: inline;
+    margin-right: 6px;
+}
+
+.card-normal p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+
+.conquista-card {
+    background: rgb(247, 44, 25);
+    border: 7px solid rgb(173, 9, 9);
+    font-size: 1.1rem;
+}
+
+
+.capa {
+    width: 170px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.Titulo {
+    font-weight: bold;
+}
+
+
+.final {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}

@@ -1,12 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>My GameRoom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
     
+    <header class="bg-black text-white py-3">
+        <div class="container-fluid text-center">
+
+            
+            <h1 class="display-4 fw-bold mb-3">My GameRoom</h1>
+
+            
+            <section class="mb-3">
+                <h3 class="h5 mb-2">Login</h3>
+                <div class="d-flex flex-wrap justify-content-center gap-2">
+                    <input type="text" class="form-control w-auto" placeholder="Usuário">
+                    <input type="password" class="form-control w-auto" placeholder="Senha">
+                    <button class="btn btn-warning fw-bold">Entrar</button>
+                </div>
+            </section>
+
+            
+            <nav class="Menu">
+                <ul class="list-unstyled d-flex flex-wrap justify-content-center gap-3 mb-0">
+                    <li class="nav-item-custom">INICIO</li>
+                    <li class="nav-item-custom">BIBLIOTECA</li>
+                    <li class="nav-item-custom">COMUNIDADE</li>
+                    <li class="nav-item-custom">PERFIL</li>
+                    <li class="nav-item-custom">CONFIGURAÇÕES</li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    
+    <main>
+        <div id="Conteudo" class="container-xl py-4">
+
+            <h2 class="text-white text-center mb-4">BEM-VINDO, ________________!</h2>
+
+            
+            <section class="mb-5">
+                <p class="text-white text-center intro-site">
+                    Seu espaço gamer: acompanhe sua biblioteca, conquistas e os jogos que você mais ama.
+                </p>
+            </section>
+
+            
+            <div class="banner mb-5">
+                <img src="imgs/banner.png" alt="Banner My GameRoom" class="img-fluid w-100 rounded">
+            </div>
+
+            
+            <section class="mb-5">
+                <h3 id="Preferidos" class="mb-4">Meus Preferidos</h3>
+
+                
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-4">
+                        <article class="card-favorito text-center p-3 rounded h-100">
+                            <img src="imgs/Grace.png" class="capa mx-auto mb-3" alt="Resident Evil 9">
+                            <p class="Titulo fw-bold">Resident Evil 9</p>
+                            <p><img src="imgs/relogio.png" class="icone" alt=""> 18H</p>
+                            <p><img src="imgs/trofeu.png" class="icone" alt=""> 25/50</p>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <article class="card-favorito text-center p-3 rounded h-100">
+                            <img src="imgs/Arthur.png" class="capa mx-auto mb-3" alt="Red Dead Redemption 2">
+                            <p class="Titulo fw-bold">Red Dead Redemption 2</p>
+                            <p><img src="imgs/relogio.png" class="icone" alt=""> 64H</p>
+                            <p><img src="imgs/trofeu.png" class="icone" alt=""> 49/51</p>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <article class="card-favorito text-center p-3 rounded h-100">
+                            <img src="imgs/Dmc3.png" class="capa mx-auto mb-3" alt="Devil May Cry 3">
+                            <p class="Titulo fw-bold">Devil May Cry 3</p>
+                            <p><img src="imgs/relogio.png" class="icone" alt=""> 7H</p>
+                            <p><img src="imgs/trofeu.png" class="icone" alt=""> 15/33</p>
+                        </article>
+                    </div>
+
+                </div>
+            </section>
+
+            
+            <section class="mb-5">
+                <h3 id="recentemente" class="mb-4">Jogados Recentemente</h3>
+
+                
+                <div class="row g-4">
+
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="card-normal text-center p-3 rounded h-100">
+                            <img src="imgs/Leon.png" class="capa mx-auto mb-3" alt="Resident Evil 4 Remake">
+                            <p class="Titulo fw-bold text-white">Resident Evil 4 Remake</p>
+                            <p class="text-white"><img src="imgs/relogio.png" class="icone" alt=""> 6H</p>
+                            <p class="text-white"><img src="imgs/trofeu.png" class="icone" alt=""> 22/39</p>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="card-normal text-center p-3 rounded h-100">
+                            <img src="imgs/Subnautica.png" class="capa mx-auto mb-3" alt="Subnautica">
+                            <p class="Titulo fw-bold text-white">Subnautica</p>
+                            <p class="text-white"><img src="imgs/relogio.png" class="icone" alt=""> 2H</p>
+                            <p class="text-white"><img src="imgs/trofeu.png" class="icone" alt=""> 2/17</p>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="card-normal text-center p-3 rounded h-100">
+                            <img src="imgs/Hades.png" class="capa mx-auto mb-3" alt="Hades II">
+                            <p class="Titulo fw-bold text-white">Hades II (TGA Edition)</p>
+                            <p class="text-white"><img src="imgs/relogio.png" class="icone" alt=""> 4H</p>
+                            <p class="text-white"><img src="imgs/trofeu.png" class="icone" alt=""> 8/50</p>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <article class="card-normal text-center p-3 rounded h-100">
+                            <img src="imgs/Terra.png" class="capa mx-auto mb-3" alt="Terra Média">
+                            <p class="Titulo fw-bold text-white">Terra Média: Sombras da Guerra</p>
+                            <p class="text-white"><img src="imgs/relogio.png" class="icone" alt=""> 52H</p>
+                            <p class="text-white"><img src="imgs/trofeu.png" class="icone" alt=""> 46/75</p>
+                        </article>
+                    </div>
+
+                </div>
+            </section>
+
+            
+            <section class="mb-5">
+                <h3 id="top" class="mb-4">Top Conquistas</h3>
+
+                
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-6">
+                        <article class="conquista-card text-center p-3 rounded h-100">
+                            <img src="imgs/ConquistaHades.png" class="capa mx-auto mb-3" alt="Conquista Hades">
+                            <p class="Titulo fw-bold">(Hades II) Infinitas Possibilidades</p>
+                            <p>Supere 20 testes do Caos. (Apenas 9.1% dos jogadores conquistaram!)</p>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <article class="conquista-card text-center p-3 rounded h-100">
+                            <img src="imgs/Rdr2.png" class="capa mx-auto mb-3" alt="Conquista RDR2">
+                            <p class="Titulo fw-bold">(Red Dead Redemption 2) Corrida de Ouro</p>
+                            <p>Obtenha 70 Medalhas de Ouro em missões da História. (Apenas 2.7% dos jogadores conquistaram!)</p>
+                        </article>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    
+    <footer class="final bg-black text-white text-center py-4">
+        <p>PROJETO EM DESENVOLVIMENTO</p>
+        <p>ALUNO: KAIQUE RODRIGUES</p>
+        <p>NOME DO PROJETO: MY GAMEROOM</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-eo2JDTbFMXWxkuPOEsgdGBuHuPkHNqonPQqNTVkNQUiPBt25oGcFr72nkqQ+jh+" crossorigin="anonymous"></script>
 </body>
 </html>
