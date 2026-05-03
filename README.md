@@ -9,18 +9,18 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+Nome: Kaique Rodrigues do Vale
+Matricula: 913328
+Proposta de projeto escolhida: 4.Coleção e Itens = Biblioteca de Jogos
+Breve descrição sobre seu projeto: Estou criando uma biblioteca de jogos em formato web, onde organizo os jogos em cards com imagem, título, horas jogadas e conquistas. O objetivo é ter um catálogo visual simples e interativo para facilitar a visualização e o controle dos jogos, evoluindo o projeto aos poucos com novas funcionalidades e melhorias de interface. Também pretendo adicionar um fórum de comunidade, onde os usuários poderão interagir, compartilhar opiniões e discutir sobre os jogos.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
+![desktop](public/imgs/desktop1.png)
 
-<<  COLOQUE A IMAGEM AQUI >>
 
-## Print da versão responsiva com Bootstrap [MOBILE] (*)
+## Print da versão responsiva com Bootstrap [MOBILE]
 
-![alt text](mobile.png)
+![mobile](public/imgs/mobile.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
